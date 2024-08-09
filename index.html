@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Tailwind plugins -->
+   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+<body>
+
+<div class="wrapper">
+<!-- navbar -->
+
+<header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="about.html">Article</a></li>
+            <li><a href="contact.html">Project</a></li>
+            <li><a href="about.html">Speacking</a></li>
+            <li><a href="contact.html">User</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu" onclick="openMenu()">
+            Menu <i class="fas fa-arrow-down"></i>
+        </div>
+
+    <!-- <div class="menu-bg">
+        <ul class="nav-menu">
+            <div class="close">
+                <h1>Navigation</h1>
+                <i onclick="closeMenu()" class="fas fa-times"></i>
+            </div>
+            <li><a href="index.html">About</a></li> <hr>
+             <li><a href="about.html">Article</a></li><hr>
+            <li><a href="contact.html">Project</a></li><hr>
+            <li><a href="about.html">Speacking</a></li><hr>
+            <li><a href="contact.html">User</a></li>
+        </ul>
+    </div>
+    -->
+
+    <div class="theme" onclick="whiteMo()">
+        <div class="whiteMode" onclick="whiteMo()">
+            <i class="fas fa-moon"></i>
+        </div>
+        
+        <div class="darkMo" onclick="darkMo()">
+            <i class="fas fa-sun"></i>
+        </div>
+        
+    </div>
+    
+        
+    
+</header>
+
+<!-- end of navbar -->
+
+
+<!-- Hero section -->
+
+<section>
+<div class="container">
+    <div class="hero-content">
+        <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg&w=64&q=75" alt="">
+        <h1>Software designer, founder, and amateur astronaut</h1>
+        <p>I love teaching people how to code. I teach HTML, CSS, JS, React, and Python.</p>
+    </div>
+
+    <div class="hero-icon">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+    </div>
+
+    <div class="hero-images">
+        <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-3.454151b1.jpg&w=384&q=75" alt="">
+        <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.5c6d0ed6.jpg&w=384&q=75" alt="">
+        <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.3c6c01cf.jpg&w=384&q=75" alt="">
+        <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.3c6c01cf.jpg&w=384&q=75" alt="">
+    </div>
+</div>
+</section>
+ 
+
+<!-- end of hero section -->
+
+<!-- subscribe -->
+ <div class="subscription">
+     <div class="sub-content">
+        <h2><i class="fas fa-paper-plane"></i> Subscribe to our newsletter</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+     <div class="sub-form">
+         <form action="">
+             <input type="email" placeholder="Email address">
+             <input type="submit" value="Subscribe">
+         </form>
+     </div>
+
+    </div>
+ </div>
+
+ <!-- end of subscribe -->
+
+ <!-- work -->
+
+ <div class="work">
+    <div class="work-head">
+        <i class="fas fa-briefcase"></i>
+        Woirks
+    </div>
+     <div class="work-content">
+        <img src="https://spotlight.tailwindui.com/_next/static/media/planetaria.ecd81ade.svg" alt="">
+        <h2>Planetaria</h2>
+        <div class="para">
+            <p>ceo</p><p><span class="data">2019 - present</span></p>
+        </div>
+     </div>
+
+     <div class="work-content">
+        <img src="https://spotlight.tailwindui.com/_next/static/media/airbnb.b4000690.svg" alt="">
+        <h2>Planetaria</h2>
+        <div class="para">
+            <p>ceo</p><p><span class="data">2019 - present</span></p>
+        </div>
+     </div>
+
+     <div class="work-content">
+        <img src="https://spotlight.tailwindui.com/_next/static/media/facebook.dd9e7d48.svg" alt="">
+        <h2>Planetaria</h2>
+        <div class="para">
+            <p>ceo</p><p><span class="data">2019 - present</span></p>
+        </div>
+     </div>
+
+     <div class="work-content">
+        <img src="https://spotlight.tailwindui.com/_next/static/media/starbucks.4a5bd050.svg" alt="">
+        <h2>Planetaria</h2>
+        <div class="para">
+            <p>ceo</p><p><span class="data">2019 - present</span></p>
+        </div>
+     </div>
+
+     <a href="#" class="cv-btn">Download Cv</a>
+ </div>
+
+ <!-- end of work -->
+
+
+ <!-- footer -->
+
+ <footer>
+     <div class="footer-content">
+        <div class="userfull-link">
+            <li><a href="">about</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Spacing</a></li>
+            <li><a href="">Users</a></li>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2022. All rights reserved</p>
+        </div>
+</div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
